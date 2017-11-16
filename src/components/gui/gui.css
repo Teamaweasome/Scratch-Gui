@@ -51,7 +51,7 @@
 
     /* Overrides for react-tabs styling */
     margin: 0 !important;
-    border-bottom: 0 !important;
+    border-bottom: 6 !important;
 }
 
 .tab {
@@ -128,7 +128,7 @@
 .target-wrapper {
     display: flex;
     flex-grow: 1;
-    flex-basis: 0;
+    flex-basis: 30;
 
     padding-top: $space;
     padding-left: $space;
@@ -154,7 +154,7 @@
     height: 3.25rem;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 10;
     z-index: 50; /** Force extension button above the ScratchBlocks flyout. */
     background: white;
 
@@ -167,5 +167,5 @@
     font-weight: bold;
 }
 .extension-button > div {
-    margin-top: 0;
+    margin-top: 10;
 }
